@@ -1,0 +1,13 @@
+﻿<Window x:Class="DevSkin.wpf.WaitWindow"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:dx="http://schemas.devexpress.com/winfx/2008/xaml/core"
+        xmlns:wpf="clr-namespace:DevSkin.wpf"
+    mc:Ignorable="d" x:Name="splashWindow"
+    WindowStyle="None" ResizeMode="NoResize" SizeToContent="WidthAndHeight"
+    AllowsTransparency="True" Background="Transparent" ShowInTaskbar="False" Topmost="True">
+
+    <wpf:WaitScreen />
+</Window>
